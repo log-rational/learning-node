@@ -1,4 +1,1 @@
-export default greet = (name)=>{
-    console.log(`Hello ${name}!`);
-}
-;
+console.log('methods.js')

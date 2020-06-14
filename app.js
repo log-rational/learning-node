@@ -1,4 +1,3 @@
 const fs = require('fs');
-const greet = require('./methods');
-
-greet("Umesh")
+console.log('app.js')
+require('./methods');
