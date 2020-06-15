@@ -1,3 +1,4 @@
-const fs = require('fs');
-console.log('app.js')
-require('./methods');
+const getNotes = require('./notes');
+
+const notes = getNotes();
+console.log(notes);
